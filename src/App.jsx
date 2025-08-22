@@ -30,7 +30,7 @@ const SearchIcon = (props) => (
 // --- Demo data (replace with your projects) --- //
 const PROJECTS = [
   {
-    img: "public/eightborn.png",
+    img: "/eightborn.png",
     title: "Eightborn Site | Yoldadır :) |",
     description: "İnkişaf etmiş funksionallığa malik sayt: çoxdilli dəstək, dark/light mode və API inteqrasiyası.",
     tags: ["React", "Tailwind CSS", "API Integration", "Multi-language", "Dark/Light Mode", "Responsive design"],
@@ -38,7 +38,7 @@ const PROJECTS = [
     // codeUrl: "#",
   },
   {
-    img: "public/spacephoto.png",
+    img: "/spacephoto.png",
     title: "SpaceXShop Site",
     description: "API ilə işləyən demo e-commerce sayt. Məhsul siyahısı, detalları və səbət funksionallığı daxildir.",
     tags: ["React", "Tailwind CSS", "API Integration", "Responsive design"],
@@ -46,7 +46,7 @@ const PROJECTS = [
     // codeUrl: "#",
   },
   {
-    img: "public/countryphoto.png",
+    img: "/countryphoto.png",
     title: "Country Site",
     description: "Ölkələri API vasitəsilə göstərən interaktiv veb tətbiqi.",
     tags: ["React", "Tailwind CSS", "API Integration", "Responsive design"],
@@ -54,7 +54,7 @@ const PROJECTS = [
     // codeUrl: "#",
   },
   {
-    img: "public/saytaz.png",
+    img: "/saytaz.png",
     title: "Saytaz Site",
     description: "Əsasən UI və istifadəçi təcrübəsi üzərində işlənmiş təqdimat məqsədli sayt.",
     tags: ["HTML", "CSS", "Vanilla JS", "Responsive design"],
@@ -62,7 +62,7 @@ const PROJECTS = [
     // codeUrl: "#",
   },
   {
-    img: "public/archo.png",
+    img: "/archo.png",
     title: "Archo Site",
     description: "Sadə və modern dizayna malik demo veb sayt. Layout və dizayn üzərində fokuslanmışdır.",
     tags: ["HTML", "CSS", "Vanilla JS", "Responsive design"],
@@ -153,7 +153,7 @@ export default function PortfolioHub() {
   }, [query, activeTag]);
 
   return (
-    <div className="min-h-screen bg-[url('public/bgphoto.jpg')] bg-gradient-to-b from-white to-gray-100 text-gray-900">
+    <div className="min-h-screen bg-[url('/bgphoto.jpg')] bg-gradient-to-b from-white to-gray-100 text-gray-900">
       {/* Container */}
       <div className="mx-auto max-w-6xl px-4 py-10">
         {/* Header */}
