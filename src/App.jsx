@@ -31,10 +31,10 @@ const SearchIcon = (props) => (
 const PROJECTS = [
   {
     img: "/eightborn.png",
-    title: "Eightborn Site | Yoldadır :) |",
-    description: "İnkişaf etmiş funksionallığa malik sayt: çoxdilli dəstək, dark/light mode və API inteqrasiyası.",
-    tags: ["React", "Tailwind CSS", "API Integration", "Multi-language", "Dark/Light Mode", "Responsive design"],
-    demoUrl: "#",
+    title: "Eightborn Site",
+    description: "İnkişaf etmiş funksionallığa malik sayt: çoxdilli dəstək və API inteqrasiyası.",
+    tags: ["React", "Tailwind CSS", "API Integration", "Multi-language", "Responsive design"],
+    demoUrl: "https://eightborn-site.vercel.app/",
     // codeUrl: "#",
   },
   {
